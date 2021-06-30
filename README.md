@@ -1,12 +1,9 @@
 # Tóm tắt
-Given a chess board of size N x N, on the board are: a knight, m coins, p obstacles,
-and a destination ,all are generated on random squares of the board. The knight can
-move in a 2x1 ‘L’ shape like in regular Chess rule. The journey of the Knight must
-end on the destination square.
-If the knight steps into the square with the coin, it will collect the coin and gain 3
-points, the knight can not step into the square with the obstacles and if it steps into
-a normal square (that has nothing on it), it will lose 1 point. The program will find
-the path that maximizes the number of points to the destination.
+Cho một bàn cờ vua kích cỡ N x N, trên bàn cờ có : 1 quân mã, m đồng xu, p vật cản, 1 điểm đích đến, tất cả đều được generate 1 cách ngẫu nhiên.Quân 
+mã phải di chuyển theo đúng luật cờ vua cho đến khi đến được điểm đích.
+Nếu quân mã đi vào ô có đồng xu, nó sẽ được 3 điểm. Quân mã không được phép được đi vào ô có vật cản. Mỗi nước đi của quân mã mà vào trúng một ô bình
+thường (không có đồng xu hay vật cản), nó sẽ mất 1 điểm. Viết chương trình tìm kiếm đường đi cho quân mã sao cho nó được số điểm tối đa trước khi đến 
+được đích.
 
 # Các thuật toán thực hiện:
     + A*
