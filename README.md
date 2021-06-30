@@ -1,4 +1,4 @@
-# Tóm tắt :
+# Tóm tắt
 Given a chess board of size N x N, on the board are: a knight, m coins, p obstacles,
 and a destination ,all are generated on random squares of the board. The knight can
 move in a 2x1 ‘L’ shape like in regular Chess rule. The journey of the Knight must
